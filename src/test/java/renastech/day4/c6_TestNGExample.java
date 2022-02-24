@@ -39,8 +39,9 @@ public class c6_TestNGExample {
         System.out.println("Test2 is running");
         String name1="Alex";
         String name2="Alex";
-
+        //if assertion is failed next line of code will not execute
         Assert.assertEquals(name1,name2);
+
     }
 
 
