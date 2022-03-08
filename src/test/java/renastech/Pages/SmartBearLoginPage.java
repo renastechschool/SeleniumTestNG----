@@ -17,4 +17,27 @@ public class SmartBearLoginPage extends BasePage{
 
     @FindBy(id="ctl00_MainContent_login_button")
     public WebElement loginButton;
+
+    @FindBy(id="ctl00_MainContent_status")
+    private WebElement statusMessage;
+
+
+    //Create methods related to webelements
+
+    public void loginSmartBear(String username, String password){
+        usernameBox.sendKeys(username);
+        passwordBox.sendKeys(password);
+        loginButton.click();
+    }
+
+
+        public String getStatusMessage(){
+        return statusMessage.getText();
+        }
+
+
+
+
+
+
 }
