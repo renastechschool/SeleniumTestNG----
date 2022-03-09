@@ -10,7 +10,7 @@ import renastech.utilities.PropertiesReadingUtil;
 
 public class c3_Explicitly_example extends TestBase2 {
 
-//go to http://seleniumpractise.blogspot.com/2016/08/how-to-use-explicit-wait-in-selenium.html
+//go tto http://seleniumpractise.blogspot.com/2016/08/how-to-use-explicit-wait-in-selenium.html
     //click on timer
     //verify webdriver text gets presenttt
 
