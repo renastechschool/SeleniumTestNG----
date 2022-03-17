@@ -22,7 +22,7 @@ public class TestBase {
     @AfterMethod
     public void closing() throws InterruptedException {
         BrowserUtils.wait(3);
-       // driver.close();
+        driver.close();
     }
 
 

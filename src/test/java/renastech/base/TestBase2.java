@@ -20,7 +20,7 @@ public abstract class TestBase2 {
     @AfterMethod
     public void closing() throws InterruptedException {
         BrowserUtils.wait(3);
-      //  DriverUtil.closeDriver();
+        DriverUtil.closeDriver();
 
     }
 
